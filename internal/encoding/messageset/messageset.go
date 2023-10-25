@@ -8,9 +8,9 @@ package messageset
 import (
 	"math"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // The MessageSet wire format is equivalent to a message defined as follows,

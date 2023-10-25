@@ -8,12 +8,12 @@ package wirefuzz
 import (
 	"fmt"
 
-	"xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoregistry"
-	piface "xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	piface "github.com/xjz9600/protobuf/runtime/protoiface"
 
-	fuzzpb "xjz9600/protobuf/internal/testprotos/fuzz"
+	fuzzpb "github.com/xjz9600/protobuf/internal/testprotos/fuzz"
 )
 
 // Fuzz is a fuzzer for proto.Marshal and proto.Unmarshal.

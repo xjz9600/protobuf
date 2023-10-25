@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/order"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/order"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // Format returns a formatted string for the message.

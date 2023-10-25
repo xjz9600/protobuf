@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/internal/protobuild"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/internal/protobuild"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
-	requiredpb "xjz9600/protobuf/internal/testprotos/required"
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	test3pb "xjz9600/protobuf/internal/testprotos/test3"
+	legacypb "github.com/xjz9600/protobuf/internal/testprotos/legacy"
+	requiredpb "github.com/xjz9600/protobuf/internal/testprotos/required"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	test3pb "github.com/xjz9600/protobuf/internal/testprotos/test3"
 )
 
 type testProto struct {

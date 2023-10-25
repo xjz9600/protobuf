@@ -7,9 +7,9 @@ package main
 import (
 	"testing"
 
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 func TestRegistry(t *testing.T) {

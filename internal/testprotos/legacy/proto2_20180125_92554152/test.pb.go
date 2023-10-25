@@ -19,7 +19,7 @@ It has these top-level messages:
 */
 package proto2_20180125_92554152
 
-import proto "xjz9600/protobuf/internal/protolegacy"
+import proto "github.com/xjz9600/protobuf/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 

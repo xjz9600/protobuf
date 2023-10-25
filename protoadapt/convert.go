@@ -6,15 +6,15 @@
 package protoadapt
 
 import (
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/runtime/protoiface"
-	"xjz9600/protobuf/runtime/protoimpl"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/runtime/protoimpl"
 )
 
 // MessageV1 is the original "github.com/golang/protobuf/proto".Message type.
 type MessageV1 = protoiface.MessageV1
 
-// MessageV2 is the Message type used by the current xjz9600/protobuf
+// MessageV2 is the Message type used by the current github.com/xjz9600/protobuf
 // module, adding support for reflection.
 type MessageV2 = proto.Message
 

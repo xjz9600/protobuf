@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"xjz9600/protobuf/encoding/prototext"
-	pimpl "xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protodesc"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	pimpl "github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protodesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 
-	proto2_20180125 "xjz9600/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"xjz9600/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/xjz9600/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

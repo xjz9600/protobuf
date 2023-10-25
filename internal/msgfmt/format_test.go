@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/internal/msgfmt"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/testing/protocmp"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/msgfmt"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	textpb "xjz9600/protobuf/internal/testprotos/textpb2"
-	dynpb "xjz9600/protobuf/types/dynamicpb"
-	anypb "xjz9600/protobuf/types/known/anypb"
-	durpb "xjz9600/protobuf/types/known/durationpb"
-	tspb "xjz9600/protobuf/types/known/timestamppb"
-	wpb "xjz9600/protobuf/types/known/wrapperspb"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	textpb "github.com/xjz9600/protobuf/internal/testprotos/textpb2"
+	dynpb "github.com/xjz9600/protobuf/types/dynamicpb"
+	anypb "github.com/xjz9600/protobuf/types/known/anypb"
+	durpb "github.com/xjz9600/protobuf/types/known/durationpb"
+	tspb "github.com/xjz9600/protobuf/types/known/timestamppb"
+	wpb "github.com/xjz9600/protobuf/types/known/wrapperspb"
 )
 
 func init() {

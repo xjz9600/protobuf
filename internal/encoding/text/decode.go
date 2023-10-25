@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/errors"
 )
 
 // Decoder is a token-based textproto decoder.

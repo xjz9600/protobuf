@@ -5,13 +5,13 @@
 package protodesc
 
 import (
-	"xjz9600/protobuf/internal/encoding/defval"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/encoding/defval"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	"xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 // resolver is a wrapper around a local registry of declarations within the file

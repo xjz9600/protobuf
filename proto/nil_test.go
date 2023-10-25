@@ -7,10 +7,10 @@ package proto_test
 import (
 	"testing"
 
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
 )
 
 // TestNil tests for boundary conditions when nil and typed-nil messages

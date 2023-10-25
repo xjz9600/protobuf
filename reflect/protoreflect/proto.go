@@ -22,7 +22,7 @@
 // The protobuf descriptor interfaces are not meant to be implemented by
 // user code since they might need to be extended in the future to support
 // additions to the protobuf language.
-// The "xjz9600/protobuf/reflect/protodesc" package converts between
+// The "github.com/xjz9600/protobuf/reflect/protodesc" package converts between
 // google.protobuf.DescriptorProto messages and protobuf descriptors.
 //
 // # Go Type Descriptors
@@ -36,7 +36,7 @@
 // where the Type and ProtoReflect.Type accessors respectively
 // return the protobuf descriptor for the values.
 //
-// The "xjz9600/protobuf/types/dynamicpb" package can be used to
+// The "github.com/xjz9600/protobuf/types/dynamicpb" package can be used to
 // create Go type descriptors from protobuf descriptors.
 //
 // # Value Interfaces
@@ -134,8 +134,8 @@ import (
 	"fmt"
 	"strings"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/pragma"
 )
 
 type doNotImplement pragma.DoNotImplement

@@ -10,8 +10,8 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // sizeBool returns the size of wire encoding a bool pointer as a Bool.

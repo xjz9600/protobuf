@@ -9,16 +9,16 @@ import (
 	"strings"
 	"testing"
 
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	weakpb "xjz9600/protobuf/internal/testprotos/test/weak1"
-	pb2 "xjz9600/protobuf/internal/testprotos/textpb2"
-	pb3 "xjz9600/protobuf/internal/testprotos/textpb3"
-	"xjz9600/protobuf/types/known/anypb"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	weakpb "github.com/xjz9600/protobuf/internal/testprotos/test/weak1"
+	pb2 "github.com/xjz9600/protobuf/internal/testprotos/textpb2"
+	pb3 "github.com/xjz9600/protobuf/internal/testprotos/textpb3"
+	"github.com/xjz9600/protobuf/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

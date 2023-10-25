@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "xjz9600/protobuf/reflect/protoreflect"
+import protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
 
 // Generic field names and numbers for synthetic map entry messages.
 const (

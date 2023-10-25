@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"sync"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/descopts"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/descopts"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 func (fd *File) lazyRawInit() {

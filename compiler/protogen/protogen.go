@@ -27,17 +27,17 @@ import (
 	"strconv"
 	"strings"
 
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protodesc"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protodesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	"xjz9600/protobuf/types/descriptorpb"
-	"xjz9600/protobuf/types/dynamicpb"
-	"xjz9600/protobuf/types/pluginpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/dynamicpb"
+	"github.com/xjz9600/protobuf/types/pluginpb"
 )
 
 const goPackageDocURL = "https://protobuf.dev/reference/go/go-generated#package"
@@ -228,7 +228,7 @@ func (opts Options) New(req *pluginpb.CodeGeneratorRequest) (*Plugin, error) {
 	// .proto source file specifying the full import path of the Go package
 	// associated with this file.
 	//
-	//     option go_package = "xjz9600/protobuf/types/known/anypb";
+	//     option go_package = "github.com/xjz9600/protobuf/types/known/anypb";
 	//
 	// Alternatively, build systems which want to exert full control over
 	// import paths may specify M<filename>=<import_path> flags.
@@ -1235,7 +1235,7 @@ func newGoIdent(f *File, d protoreflect.Descriptor) GoIdent {
 }
 
 // A GoImportPath is the import path of a Go package.
-// For example: "xjz9600/protobuf/compiler/protogen"
+// For example: "github.com/xjz9600/protobuf/compiler/protogen"
 type GoImportPath string
 
 func (p GoImportPath) String() string { return strconv.Quote(string(p)) }

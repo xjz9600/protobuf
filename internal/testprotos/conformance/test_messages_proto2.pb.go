@@ -41,8 +41,8 @@
 package conformance
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

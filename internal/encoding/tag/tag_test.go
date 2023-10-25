@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"xjz9600/protobuf/internal/encoding/tag"
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protodesc"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/encoding/tag"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protodesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 const File_google_protobuf_type_proto = "google/protobuf/type.proto"

@@ -10,13 +10,13 @@ import (
 	"sort"
 	"sync"
 
-	"xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/genid"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/descfmt"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/descfmt"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 type FileImports []protoreflect.FileImport

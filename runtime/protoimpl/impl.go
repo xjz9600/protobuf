@@ -12,9 +12,9 @@
 package protoimpl
 
 import (
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/internal/filetype"
-	"xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/internal/filetype"
+	"github.com/xjz9600/protobuf/internal/impl"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

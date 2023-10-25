@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/proto"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

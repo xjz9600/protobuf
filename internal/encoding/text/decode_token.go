@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/internal/flags"
 )
 
 // Kind represents a token kind expressible in the textproto format.

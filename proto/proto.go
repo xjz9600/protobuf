@@ -5,8 +5,8 @@
 package proto
 
 import (
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Message is the top-level interface that all messages must implement.

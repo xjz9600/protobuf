@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // EnforceUTF8 reports whether to enforce strict UTF-8 validation.

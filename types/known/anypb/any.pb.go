@@ -115,10 +115,10 @@
 package anypb
 
 import (
-	proto "xjz9600/protobuf/proto"
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoregistry "xjz9600/protobuf/reflect/protoregistry"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	proto "github.com/xjz9600/protobuf/proto"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoregistry "github.com/xjz9600/protobuf/reflect/protoregistry"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	strings "strings"
 	sync "sync"

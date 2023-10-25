@@ -8,10 +8,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/compiler/protogen"
-	"xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/compiler/protogen"
+	"github.com/xjz9600/protobuf/encoding/protowire"
 
-	"xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 type fileInfo struct {

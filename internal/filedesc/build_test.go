@@ -10,13 +10,13 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protodesc"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protodesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	_ "xjz9600/protobuf/internal/testprotos/test/weak1"
-	"xjz9600/protobuf/types/descriptorpb"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/test/weak1"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

@@ -7,10 +7,10 @@ package impl
 import (
 	"sort"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/flags"
 )
 
 func sizeMessageSet(mi *MessageInfo, p pointer, opts marshalOptions) (size int) {

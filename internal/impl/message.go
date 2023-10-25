@@ -12,9 +12,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // MessageInfo provides protobuf related functionality for a given Go type

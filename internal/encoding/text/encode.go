@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/errors"
 )
 
 // encType represents an encoding type.

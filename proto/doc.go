@@ -34,7 +34,7 @@
 //
 // • Equal compares two messages. For more control over comparisons
 // and detailed reporting of differences, see package
-// "xjz9600/protobuf/testing/protocmp".
+// "github.com/xjz9600/protobuf/testing/protocmp".
 //
 // • Reset clears the content of a message.
 //
@@ -64,20 +64,20 @@
 //
 // # Related packages
 //
-// • Package "xjz9600/protobuf/encoding/protojson" converts messages to
+// • Package "github.com/xjz9600/protobuf/encoding/protojson" converts messages to
 // and from JSON.
 //
-// • Package "xjz9600/protobuf/encoding/prototext" converts messages to
+// • Package "github.com/xjz9600/protobuf/encoding/prototext" converts messages to
 // and from the text format.
 //
-// • Package "xjz9600/protobuf/reflect/protoreflect" provides a
+// • Package "github.com/xjz9600/protobuf/reflect/protoreflect" provides a
 // reflection interface for protocol buffer data types.
 //
-// • Package "xjz9600/protobuf/testing/protocmp" provides features
+// • Package "github.com/xjz9600/protobuf/testing/protocmp" provides features
 // to compare protocol buffer messages with the "github.com/google/go-cmp/cmp"
 // package.
 //
-// • Package "xjz9600/protobuf/types/dynamicpb" provides a dynamic
+// • Package "github.com/xjz9600/protobuf/types/dynamicpb" provides a dynamic
 // message type, suitable for working with messages where the protocol buffer
 // type is only known at runtime.
 //

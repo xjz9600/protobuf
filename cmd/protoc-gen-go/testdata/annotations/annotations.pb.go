@@ -8,9 +8,9 @@
 package annotations
 
 import (
-	proto "xjz9600/protobuf/proto"
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	proto "github.com/xjz9600/protobuf/proto"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"strings"
 
-	"xjz9600/protobuf/internal/encoding/defval"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/encoding/defval"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 
-	"xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 // ToFileDescriptorProto copies a protoreflect.FileDescriptor into a

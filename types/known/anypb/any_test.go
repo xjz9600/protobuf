@@ -8,14 +8,14 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/testing/protocmp"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	apb "xjz9600/protobuf/types/known/anypb"
-	epb "xjz9600/protobuf/types/known/emptypb"
-	wpb "xjz9600/protobuf/types/known/wrapperspb"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	apb "github.com/xjz9600/protobuf/types/known/anypb"
+	epb "github.com/xjz9600/protobuf/types/known/emptypb"
+	wpb "github.com/xjz9600/protobuf/types/known/wrapperspb"
 )
 
 func mustMarshal(m proto.Message) []byte {

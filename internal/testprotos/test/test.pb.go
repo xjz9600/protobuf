@@ -8,10 +8,10 @@
 package test
 
 import (
-	enums "xjz9600/protobuf/internal/testprotos/enums"
-	proto "xjz9600/protobuf/proto"
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	enums "github.com/xjz9600/protobuf/internal/testprotos/enums"
+	proto "github.com/xjz9600/protobuf/proto"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

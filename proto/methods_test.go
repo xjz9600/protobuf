@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"testing"
 
-	"xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 
-	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
+	legacypb "github.com/xjz9600/protobuf/internal/testprotos/legacy"
 )
 
 type selfMarshaler struct {

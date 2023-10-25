@@ -7,7 +7,7 @@
 
 package protoreflect
 
-import "xjz9600/protobuf/internal/pragma"
+import "github.com/xjz9600/protobuf/internal/pragma"
 
 type valueType int
 

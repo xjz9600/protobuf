@@ -10,7 +10,7 @@ package protoreflect
 import (
 	"unsafe"
 
-	"xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/internal/pragma"
 )
 
 type (

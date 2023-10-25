@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/runtime/protoimpl"
-	"xjz9600/protobuf/testing/prototest"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/runtime/protoimpl"
+	"github.com/xjz9600/protobuf/testing/prototest"
 
-	irregularpb "xjz9600/protobuf/internal/testprotos/irregular"
-	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
-	legacy1pb "xjz9600/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	_ "xjz9600/protobuf/internal/testprotos/test/weak1"
-	_ "xjz9600/protobuf/internal/testprotos/test/weak2"
-	test3pb "xjz9600/protobuf/internal/testprotos/test3"
+	irregularpb "github.com/xjz9600/protobuf/internal/testprotos/irregular"
+	legacypb "github.com/xjz9600/protobuf/internal/testprotos/legacy"
+	legacy1pb "github.com/xjz9600/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/test/weak1"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/test/weak2"
+	test3pb "github.com/xjz9600/protobuf/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

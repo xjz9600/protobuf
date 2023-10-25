@@ -11,14 +11,14 @@ import (
 	"reflect"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 // ValidationStatus is the result of validating the wire-format encoding of a message.

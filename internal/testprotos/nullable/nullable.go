@@ -5,10 +5,10 @@
 package nullable
 
 import (
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/runtime/protoimpl"
-	"xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/runtime/protoimpl"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 type Proto2 struct {

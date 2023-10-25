@@ -5,9 +5,9 @@
 package filedesc
 
 import (
-	"xjz9600/protobuf/internal/descopts"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/descopts"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 var (

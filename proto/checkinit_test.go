@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	weakpb "xjz9600/protobuf/internal/testprotos/test/weak1"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	weakpb "github.com/xjz9600/protobuf/internal/testprotos/test/weak1"
 )
 
 func TestCheckInitializedErrors(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "xjz9600/protobuf/internal/protolegacy"
-	descriptor "xjz9600/protobuf/types/descriptorpb"
+	proto "github.com/xjz9600/protobuf/internal/protolegacy"
+	descriptor "github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

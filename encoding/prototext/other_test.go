@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	pb2 "xjz9600/protobuf/internal/testprotos/textpb2"
-	"xjz9600/protobuf/types/known/anypb"
-	"xjz9600/protobuf/types/known/durationpb"
-	"xjz9600/protobuf/types/known/emptypb"
-	"xjz9600/protobuf/types/known/structpb"
-	"xjz9600/protobuf/types/known/timestamppb"
-	"xjz9600/protobuf/types/known/wrapperspb"
+	pb2 "github.com/xjz9600/protobuf/internal/testprotos/textpb2"
+	"github.com/xjz9600/protobuf/types/known/anypb"
+	"github.com/xjz9600/protobuf/types/known/durationpb"
+	"github.com/xjz9600/protobuf/types/known/emptypb"
+	"github.com/xjz9600/protobuf/types/known/structpb"
+	"github.com/xjz9600/protobuf/types/known/timestamppb"
+	"github.com/xjz9600/protobuf/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

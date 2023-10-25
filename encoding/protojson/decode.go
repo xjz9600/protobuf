@@ -11,16 +11,16 @@ import (
 	"strconv"
 	"strings"
 
-	"xjz9600/protobuf/internal/encoding/json"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/internal/set"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/encoding/json"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/internal/set"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given proto.Message.

@@ -7,12 +7,12 @@ package impl_test
 import (
 	"testing"
 
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/internal/protobuild"
-	"xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/internal/protobuild"
+	"github.com/xjz9600/protobuf/proto"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

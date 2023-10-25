@@ -9,8 +9,8 @@
 package proto
 
 import (
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 const hasProtoMethods = false

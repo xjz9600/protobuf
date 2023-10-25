@@ -5,13 +5,13 @@
 package proto_test
 
 import (
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	messagesetpb "xjz9600/protobuf/internal/testprotos/messageset/messagesetpb"
-	msetextpb "xjz9600/protobuf/internal/testprotos/messageset/msetextpb"
+	messagesetpb "github.com/xjz9600/protobuf/internal/testprotos/messageset/messagesetpb"
+	msetextpb "github.com/xjz9600/protobuf/internal/testprotos/messageset/msetextpb"
 )
 
 func init() {

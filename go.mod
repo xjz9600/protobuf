@@ -1,4 +1,4 @@
-module xjz9600/protobuf
+module github.com/xjz9600/protobuf
 
 go 1.11
 

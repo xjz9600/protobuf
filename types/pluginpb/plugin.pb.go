@@ -47,9 +47,9 @@
 package pluginpb
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
-	descriptorpb "xjz9600/protobuf/types/descriptorpb"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
+	descriptorpb "github.com/xjz9600/protobuf/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 )

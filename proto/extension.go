@@ -5,7 +5,7 @@
 package proto
 
 import (
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // HasExtension reports whether an extension field is populated.

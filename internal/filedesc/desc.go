@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"xjz9600/protobuf/internal/descfmt"
-	"xjz9600/protobuf/internal/descopts"
-	"xjz9600/protobuf/internal/encoding/defval"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/descfmt"
+	"github.com/xjz9600/protobuf/internal/descopts"
+	"github.com/xjz9600/protobuf/internal/encoding/defval"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // The types in this file may have a suffix:

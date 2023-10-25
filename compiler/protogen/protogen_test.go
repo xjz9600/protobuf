@@ -11,13 +11,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/testing/protocmp"
 
-	"xjz9600/protobuf/types/descriptorpb"
-	"xjz9600/protobuf/types/pluginpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/pluginpb"
 )
 
 func TestPluginParameters(t *testing.T) {

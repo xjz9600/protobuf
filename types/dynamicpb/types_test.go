@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/types/descriptorpb"
-	"xjz9600/protobuf/types/dynamicpb"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/dynamicpb"
 
-	registrypb "xjz9600/protobuf/internal/testprotos/registry"
+	registrypb "github.com/xjz9600/protobuf/internal/testprotos/registry"
 )
 
 var _ protoregistry.ExtensionTypeResolver = &dynamicpb.Types{}

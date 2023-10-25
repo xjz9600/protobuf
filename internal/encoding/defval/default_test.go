@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"xjz9600/protobuf/internal/encoding/defval"
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/encoding/defval"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

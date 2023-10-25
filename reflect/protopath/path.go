@@ -9,8 +9,8 @@ package protopath
 import (
 	"fmt"
 
-	"xjz9600/protobuf/internal/msgfmt"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/msgfmt"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // NOTE: The Path and Values are separate types here since there are use cases

@@ -11,7 +11,7 @@
 
 package nullable
 
-import "xjz9600/protobuf/runtime/protoimpl"
+import "github.com/xjz9600/protobuf/runtime/protoimpl"
 
 func init() {
 	methodTestProtos = append(methodTestProtos,

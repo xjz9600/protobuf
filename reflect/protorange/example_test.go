@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"xjz9600/protobuf/encoding/protojson"
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protopath"
-	"xjz9600/protobuf/reflect/protorange"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/testing/protopack"
-	"xjz9600/protobuf/types/known/anypb"
-	"xjz9600/protobuf/types/known/timestamppb"
+	"github.com/xjz9600/protobuf/encoding/protojson"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protopath"
+	"github.com/xjz9600/protobuf/reflect/protorange"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/types/known/anypb"
+	"github.com/xjz9600/protobuf/types/known/timestamppb"
 
-	newspb "xjz9600/protobuf/internal/testprotos/news"
+	newspb "github.com/xjz9600/protobuf/internal/testprotos/news"
 )
 
 func init() {

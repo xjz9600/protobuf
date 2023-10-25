@@ -16,17 +16,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"xjz9600/protobuf/encoding/prototext"
-	pimpl "xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protodesc"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	pimpl "github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protodesc"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	proto2_20180125 "xjz9600/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	"xjz9600/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/xjz9600/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 // List of test operations to perform on messages, lists, or maps.

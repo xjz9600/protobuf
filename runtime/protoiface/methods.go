@@ -10,8 +10,8 @@
 package protoiface
 
 import (
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Methods is a set of optional fast-path implementations of various operations.

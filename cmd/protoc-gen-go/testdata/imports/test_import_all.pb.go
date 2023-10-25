@@ -8,12 +8,12 @@
 package imports
 
 import (
-	fmt "xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/fmt"
-	test_a_1 "xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1"
-	_ "xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_2"
-	test_b_1 "xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_b_1"
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	fmt "github.com/xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/fmt"
+	test_a_1 "github.com/xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_1"
+	_ "github.com/xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_a_2"
+	test_b_1 "github.com/xjz9600/protobuf/cmd/protoc-gen-go/testdata/imports/test_b_1"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

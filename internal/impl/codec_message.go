@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	"xjz9600/protobuf/internal/order"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	"github.com/xjz9600/protobuf/internal/order"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 // coderMessageInfo contains per-message information used by the fast-path functions.

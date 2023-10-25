@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/detrand"
 )
 
 // Error is a sentinel matching all errors produced by this package.

@@ -10,14 +10,14 @@ import (
 	"reflect"
 	"testing"
 
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	"xjz9600/protobuf/internal/errors"
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	test3pb "xjz9600/protobuf/internal/testprotos/test3"
+	"github.com/xjz9600/protobuf/internal/errors"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	test3pb "github.com/xjz9600/protobuf/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

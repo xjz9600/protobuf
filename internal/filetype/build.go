@@ -9,11 +9,11 @@ package filetype
 import (
 	"reflect"
 
-	"xjz9600/protobuf/internal/descopts"
-	"xjz9600/protobuf/internal/filedesc"
-	pimpl "xjz9600/protobuf/internal/impl"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/descopts"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	pimpl "github.com/xjz9600/protobuf/internal/impl"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // Builder constructs type descriptors from a raw file descriptor

@@ -8,10 +8,10 @@
 package fuzz
 
 import (
-	test "xjz9600/protobuf/internal/testprotos/test"
-	test3 "xjz9600/protobuf/internal/testprotos/test3"
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	test "github.com/xjz9600/protobuf/internal/testprotos/test"
+	test3 "github.com/xjz9600/protobuf/internal/testprotos/test3"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

@@ -10,15 +10,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protopath"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protopath"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/testing/protocmp"
 
-	newspb "xjz9600/protobuf/internal/testprotos/news"
-	anypb "xjz9600/protobuf/types/known/anypb"
-	timestamppb "xjz9600/protobuf/types/known/timestamppb"
+	newspb "github.com/xjz9600/protobuf/internal/testprotos/news"
+	anypb "github.com/xjz9600/protobuf/types/known/anypb"
+	timestamppb "github.com/xjz9600/protobuf/types/known/timestamppb"
 )
 
 func mustMarshal(m proto.Message) []byte {

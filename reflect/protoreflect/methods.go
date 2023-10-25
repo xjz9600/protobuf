@@ -5,7 +5,7 @@
 package protoreflect
 
 import (
-	"xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/internal/pragma"
 )
 
 // The following types are used by the fast-path Message.ProtoMethods method.

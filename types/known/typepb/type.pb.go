@@ -34,10 +34,10 @@
 package typepb
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
-	anypb "xjz9600/protobuf/types/known/anypb"
-	sourcecontextpb "xjz9600/protobuf/types/known/sourcecontextpb"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
+	anypb "github.com/xjz9600/protobuf/types/known/anypb"
+	sourcecontextpb "github.com/xjz9600/protobuf/types/known/sourcecontextpb"
 	reflect "reflect"
 	sync "sync"
 )

@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"xjz9600/protobuf/internal/descopts"
-	"xjz9600/protobuf/internal/encoding/messageset"
-	ptag "xjz9600/protobuf/internal/encoding/tag"
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/internal/descopts"
+	"github.com/xjz9600/protobuf/internal/encoding/messageset"
+	ptag "github.com/xjz9600/protobuf/internal/encoding/tag"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

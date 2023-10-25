@@ -7,8 +7,8 @@ package impl
 import (
 	"fmt"
 
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 // weakFields adds methods to the exported WeakFields type for internal use.

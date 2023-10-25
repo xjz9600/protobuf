@@ -12,15 +12,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/runtime/protoimpl"
-	"xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/runtime/protoimpl"
+	"github.com/xjz9600/protobuf/testing/protocmp"
 
-	legacy1pb "xjz9600/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	test3pb "xjz9600/protobuf/internal/testprotos/test3"
-	descpb "xjz9600/protobuf/types/descriptorpb"
+	legacy1pb "github.com/xjz9600/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	test3pb "github.com/xjz9600/protobuf/internal/testprotos/test3"
+	descpb "github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

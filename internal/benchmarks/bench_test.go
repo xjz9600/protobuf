@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
-	"xjz9600/protobuf/encoding/protojson"
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/encoding/protojson"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	benchpb "xjz9600/protobuf/internal/testprotos/benchmarks"
-	_ "xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb "github.com/xjz9600/protobuf/internal/testprotos/benchmarks"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

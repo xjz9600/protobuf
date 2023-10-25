@@ -5,9 +5,9 @@
 package proto
 
 import (
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 // CheckInitialized returns an error if any required fields in m are not set.

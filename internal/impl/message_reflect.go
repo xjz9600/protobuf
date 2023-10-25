@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 type reflectMessageInfo struct {

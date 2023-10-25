@@ -21,8 +21,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Number is the field number; aliased from the protowire package for convenience.

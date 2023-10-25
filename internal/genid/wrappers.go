@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "xjz9600/protobuf/reflect/protoreflect"
+import protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
 
 // Generic field name and number for messages in wrappers.proto.
 const (

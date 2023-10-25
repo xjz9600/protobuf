@@ -7,10 +7,10 @@ package main
 import (
 	"testing"
 
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 
-	retentionpb "xjz9600/protobuf/cmd/protoc-gen-go/testdata/retention"
+	retentionpb "github.com/xjz9600/protobuf/cmd/protoc-gen-go/testdata/retention"
 )
 
 func TestFileOptionRetention(t *testing.T) {

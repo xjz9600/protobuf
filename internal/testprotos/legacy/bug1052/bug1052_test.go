@@ -5,5 +5,5 @@
 package bug1052_test
 
 import (
-	_ "xjz9600/protobuf/internal/testprotos/legacy/bug1052"
+	_ "github.com/xjz9600/protobuf/internal/testprotos/legacy/bug1052"
 )

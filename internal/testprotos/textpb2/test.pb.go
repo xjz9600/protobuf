@@ -10,15 +10,15 @@
 package textpb2
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "xjz9600/protobuf/runtime/protoimpl"
-	anypb "xjz9600/protobuf/types/known/anypb"
-	durationpb "xjz9600/protobuf/types/known/durationpb"
-	emptypb "xjz9600/protobuf/types/known/emptypb"
-	fieldmaskpb "xjz9600/protobuf/types/known/fieldmaskpb"
-	structpb "xjz9600/protobuf/types/known/structpb"
-	timestamppb "xjz9600/protobuf/types/known/timestamppb"
-	wrapperspb "xjz9600/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
+	anypb "github.com/xjz9600/protobuf/types/known/anypb"
+	durationpb "github.com/xjz9600/protobuf/types/known/durationpb"
+	emptypb "github.com/xjz9600/protobuf/types/known/emptypb"
+	fieldmaskpb "github.com/xjz9600/protobuf/types/known/fieldmaskpb"
+	structpb "github.com/xjz9600/protobuf/types/known/structpb"
+	timestamppb "github.com/xjz9600/protobuf/types/known/timestamppb"
+	wrapperspb "github.com/xjz9600/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

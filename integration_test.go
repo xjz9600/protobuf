@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"xjz9600/protobuf/internal/version"
+	"github.com/xjz9600/protobuf/internal/version"
 )
 
 var (

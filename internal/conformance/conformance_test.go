@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"xjz9600/protobuf/encoding/protojson"
-	"xjz9600/protobuf/encoding/prototext"
-	"xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/encoding/protojson"
+	"github.com/xjz9600/protobuf/encoding/prototext"
+	"github.com/xjz9600/protobuf/proto"
 
-	pb "xjz9600/protobuf/internal/testprotos/conformance"
+	pb "github.com/xjz9600/protobuf/internal/testprotos/conformance"
 )
 
 func init() {

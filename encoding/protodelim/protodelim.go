@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"io"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/proto"
 )
 
 // MarshalOptions is a configurable varint size-delimited marshaler.

@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"xjz9600/protobuf/internal/encoding/json"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/genid"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/internal/encoding/json"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/genid"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 type marshalFunc func(encoder, protoreflect.Message) error

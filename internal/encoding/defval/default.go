@@ -14,9 +14,9 @@ import (
 	"math"
 	"strconv"
 
-	ptext "xjz9600/protobuf/internal/encoding/text"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/reflect/protoreflect"
+	ptext "github.com/xjz9600/protobuf/internal/encoding/text"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Format is the serialization format used to represent the default value.

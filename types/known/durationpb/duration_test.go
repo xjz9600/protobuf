@@ -12,10 +12,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/testing/protocmp"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/testing/protocmp"
 
-	durpb "xjz9600/protobuf/types/known/durationpb"
+	durpb "github.com/xjz9600/protobuf/types/known/durationpb"
 )
 
 func init() {

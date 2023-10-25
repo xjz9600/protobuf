@@ -10,9 +10,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 type extField struct {

@@ -7,8 +7,8 @@
 package proto
 
 import (
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 func (o MarshalOptions) sizeSingular(num protowire.Number, kind protoreflect.Kind, v protoreflect.Value) int {

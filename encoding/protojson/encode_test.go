@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"xjz9600/protobuf/encoding/protojson"
-	"xjz9600/protobuf/internal/detrand"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/encoding/protojson"
+	"github.com/xjz9600/protobuf/internal/detrand"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	pb2 "xjz9600/protobuf/internal/testprotos/textpb2"
-	pb3 "xjz9600/protobuf/internal/testprotos/textpb3"
-	"xjz9600/protobuf/types/known/anypb"
-	"xjz9600/protobuf/types/known/durationpb"
-	"xjz9600/protobuf/types/known/emptypb"
-	"xjz9600/protobuf/types/known/fieldmaskpb"
-	"xjz9600/protobuf/types/known/structpb"
-	"xjz9600/protobuf/types/known/timestamppb"
-	"xjz9600/protobuf/types/known/wrapperspb"
+	pb2 "github.com/xjz9600/protobuf/internal/testprotos/textpb2"
+	pb3 "github.com/xjz9600/protobuf/internal/testprotos/textpb3"
+	"github.com/xjz9600/protobuf/types/known/anypb"
+	"github.com/xjz9600/protobuf/types/known/durationpb"
+	"github.com/xjz9600/protobuf/types/known/emptypb"
+	"github.com/xjz9600/protobuf/types/known/fieldmaskpb"
+	"github.com/xjz9600/protobuf/types/known/structpb"
+	"github.com/xjz9600/protobuf/types/known/timestamppb"
+	"github.com/xjz9600/protobuf/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

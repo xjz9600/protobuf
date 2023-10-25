@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "xjz9600/protobuf/reflect/protoreflect"
+	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
 )
 
 const File_google_protobuf_timestamp_proto = "google/protobuf/timestamp.proto"

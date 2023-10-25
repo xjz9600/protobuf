@@ -7,13 +7,13 @@ package proto_test
 import (
 	"testing"
 
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/internal/protobuild"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/testing/protopack"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/internal/protobuild"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/testing/protopack"
 
-	testpb "xjz9600/protobuf/internal/testprotos/test"
-	weakpb "xjz9600/protobuf/internal/testprotos/test/weak1"
+	testpb "github.com/xjz9600/protobuf/internal/testprotos/test"
+	weakpb "github.com/xjz9600/protobuf/internal/testprotos/test/weak1"
 )
 
 func init() {

@@ -13,15 +13,15 @@
 package protodesc
 
 import (
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/filedesc"
-	"xjz9600/protobuf/internal/pragma"
-	"xjz9600/protobuf/internal/strs"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/filedesc"
+	"github.com/xjz9600/protobuf/internal/pragma"
+	"github.com/xjz9600/protobuf/internal/strs"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 
-	"xjz9600/protobuf/types/descriptorpb"
+	"github.com/xjz9600/protobuf/types/descriptorpb"
 )
 
 // Resolver is the resolver used by NewFile to resolve dependencies.

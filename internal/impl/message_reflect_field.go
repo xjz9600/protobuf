@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sync"
 
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
 )
 
 type fieldInfo struct {

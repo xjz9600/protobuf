@@ -7,13 +7,13 @@ package impl
 import (
 	"math/bits"
 
-	"xjz9600/protobuf/encoding/protowire"
-	"xjz9600/protobuf/internal/errors"
-	"xjz9600/protobuf/internal/flags"
-	"xjz9600/protobuf/proto"
-	"xjz9600/protobuf/reflect/protoreflect"
-	"xjz9600/protobuf/reflect/protoregistry"
-	"xjz9600/protobuf/runtime/protoiface"
+	"github.com/xjz9600/protobuf/encoding/protowire"
+	"github.com/xjz9600/protobuf/internal/errors"
+	"github.com/xjz9600/protobuf/internal/flags"
+	"github.com/xjz9600/protobuf/proto"
+	"github.com/xjz9600/protobuf/reflect/protoreflect"
+	"github.com/xjz9600/protobuf/reflect/protoregistry"
+	"github.com/xjz9600/protobuf/runtime/protoiface"
 )
 
 var errDecode = errors.New("cannot parse invalid wire-format data")
