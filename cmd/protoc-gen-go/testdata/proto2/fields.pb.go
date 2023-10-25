@@ -8,8 +8,8 @@
 package proto2
 
 import (
-	protoreflect "github.com/xjz9600/protobuf/reflect/protoreflect"
-	protoimpl "github.com/xjz9600/protobuf/runtime/protoimpl"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"
