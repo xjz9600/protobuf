@@ -5,8 +5,8 @@
 package proto
 
 import (
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/internal/errors"
+	"xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Message is the top-level interface that all messages must implement.

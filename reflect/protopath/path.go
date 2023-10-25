@@ -9,8 +9,8 @@ package protopath
 import (
 	"fmt"
 
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/internal/msgfmt"
+	"xjz9600/protobuf/reflect/protoreflect"
 )
 
 // NOTE: The Path and Values are separate types here since there are use cases

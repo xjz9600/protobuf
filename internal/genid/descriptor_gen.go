@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoreflect "xjz9600/protobuf/reflect/protoreflect"
 )
 
 const File_google_protobuf_descriptor_proto = "google/protobuf/descriptor.proto"

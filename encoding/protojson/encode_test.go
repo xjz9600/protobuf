@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"xjz9600/protobuf/encoding/protojson"
+	"xjz9600/protobuf/internal/detrand"
+	"xjz9600/protobuf/internal/flags"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protoregistry"
+	"xjz9600/protobuf/testing/protopack"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/fieldmaskpb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "xjz9600/protobuf/internal/testprotos/textpb2"
+	pb3 "xjz9600/protobuf/internal/testprotos/textpb3"
+	"xjz9600/protobuf/types/known/anypb"
+	"xjz9600/protobuf/types/known/durationpb"
+	"xjz9600/protobuf/types/known/emptypb"
+	"xjz9600/protobuf/types/known/fieldmaskpb"
+	"xjz9600/protobuf/types/known/structpb"
+	"xjz9600/protobuf/types/known/timestamppb"
+	"xjz9600/protobuf/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

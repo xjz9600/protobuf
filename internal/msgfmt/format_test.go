@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/testing/protopack"
+	"xjz9600/protobuf/internal/detrand"
+	"xjz9600/protobuf/internal/msgfmt"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/testing/protocmp"
+	"xjz9600/protobuf/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	textpb "google.golang.org/protobuf/internal/testprotos/textpb2"
-	dynpb "google.golang.org/protobuf/types/dynamicpb"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durpb "google.golang.org/protobuf/types/known/durationpb"
-	tspb "google.golang.org/protobuf/types/known/timestamppb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	textpb "xjz9600/protobuf/internal/testprotos/textpb2"
+	dynpb "xjz9600/protobuf/types/dynamicpb"
+	anypb "xjz9600/protobuf/types/known/anypb"
+	durpb "xjz9600/protobuf/types/known/durationpb"
+	tspb "xjz9600/protobuf/types/known/timestamppb"
+	wpb "xjz9600/protobuf/types/known/wrapperspb"
 )
 
 func init() {

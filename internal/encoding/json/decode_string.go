@@ -10,7 +10,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/internal/strs"
+	"xjz9600/protobuf/internal/strs"
 )
 
 func (d *Decoder) parseString(in []byte) (string, int, error) {

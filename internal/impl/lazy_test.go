@@ -7,12 +7,12 @@ package impl_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
+	"xjz9600/protobuf/internal/flags"
+	"xjz9600/protobuf/internal/impl"
+	"xjz9600/protobuf/internal/protobuild"
+	"xjz9600/protobuf/proto"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

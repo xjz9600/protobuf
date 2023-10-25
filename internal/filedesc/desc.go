@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/protobuf/internal/descfmt"
-	"google.golang.org/protobuf/internal/descopts"
-	"google.golang.org/protobuf/internal/encoding/defval"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"xjz9600/protobuf/internal/descfmt"
+	"xjz9600/protobuf/internal/descopts"
+	"xjz9600/protobuf/internal/encoding/defval"
+	"xjz9600/protobuf/internal/encoding/messageset"
+	"xjz9600/protobuf/internal/genid"
+	"xjz9600/protobuf/internal/pragma"
+	"xjz9600/protobuf/internal/strs"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/reflect/protoregistry"
 )
 
 // The types in this file may have a suffix:

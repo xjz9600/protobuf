@@ -16,17 +16,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	pimpl "google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"xjz9600/protobuf/encoding/prototext"
+	pimpl "xjz9600/protobuf/internal/impl"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protodesc"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/reflect/protoregistry"
+	"xjz9600/protobuf/testing/protopack"
 
-	proto2_20180125 "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	"google.golang.org/protobuf/types/descriptorpb"
+	proto2_20180125 "xjz9600/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	"xjz9600/protobuf/types/descriptorpb"
 )
 
 // List of test operations to perform on messages, lists, or maps.

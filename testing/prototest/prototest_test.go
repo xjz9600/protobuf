@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/prototest"
+	"xjz9600/protobuf/internal/flags"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/runtime/protoimpl"
+	"xjz9600/protobuf/testing/prototest"
 
-	irregularpb "google.golang.org/protobuf/internal/testprotos/irregular"
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	legacy1pb "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	_ "google.golang.org/protobuf/internal/testprotos/test/weak1"
-	_ "google.golang.org/protobuf/internal/testprotos/test/weak2"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	irregularpb "xjz9600/protobuf/internal/testprotos/irregular"
+	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
+	legacy1pb "xjz9600/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	_ "xjz9600/protobuf/internal/testprotos/test/weak1"
+	_ "xjz9600/protobuf/internal/testprotos/test/weak2"
+	test3pb "xjz9600/protobuf/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

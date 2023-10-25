@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strconv"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"xjz9600/protobuf/encoding/prototext"
+	"xjz9600/protobuf/internal/errors"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/runtime/protoiface"
 )
 
 // Export is a zero-length named type that exists only to export a set of

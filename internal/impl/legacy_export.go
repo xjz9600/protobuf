@@ -11,9 +11,9 @@ import (
 	"math"
 	"reflect"
 
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"xjz9600/protobuf/internal/errors"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/runtime/protoiface"
 )
 
 // These functions exist to support exported APIs in generated protobufs.

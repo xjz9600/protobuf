@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/reflect/protoreflect"
 )
 
 type fieldDesc struct {

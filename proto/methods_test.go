@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"xjz9600/protobuf/internal/impl"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/runtime/protoiface"
 
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
+	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
 )
 
 type selfMarshaler struct {

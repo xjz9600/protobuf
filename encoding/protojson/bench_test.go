@@ -7,9 +7,9 @@ package protojson_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/encoding/protojson"
+	"xjz9600/protobuf/encoding/protojson"
 
-	"google.golang.org/protobuf/types/known/durationpb"
+	"xjz9600/protobuf/types/known/durationpb"
 )
 
 func BenchmarkUnmarshal_Duration(b *testing.B) {

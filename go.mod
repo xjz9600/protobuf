@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module xjz9600/protobuf
 
 go 1.11
 

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/errors"
+	"xjz9600/protobuf/internal/detrand"
+	"xjz9600/protobuf/internal/errors"
 )
 
 // kind represents an encoding type.

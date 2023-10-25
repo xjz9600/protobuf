@@ -13,15 +13,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/encoding/prototext"
+	"xjz9600/protobuf/encoding/protowire"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protoreflect"
 
-	"google.golang.org/protobuf/internal/errors"
-	orderpb "google.golang.org/protobuf/internal/testprotos/order"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	"xjz9600/protobuf/internal/errors"
+	orderpb "xjz9600/protobuf/internal/testprotos/order"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	test3pb "xjz9600/protobuf/internal/testprotos/test3"
 )
 
 func TestEncode(t *testing.T) {

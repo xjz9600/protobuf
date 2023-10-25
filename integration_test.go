@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/protobuf/internal/version"
+	"xjz9600/protobuf/internal/version"
 )
 
 var (

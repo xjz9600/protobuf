@@ -10,14 +10,14 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protopack"
+	"xjz9600/protobuf/encoding/prototext"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/testing/protopack"
 
-	"google.golang.org/protobuf/internal/errors"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	"xjz9600/protobuf/internal/errors"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	test3pb "xjz9600/protobuf/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

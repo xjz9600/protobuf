@@ -8,10 +8,10 @@
 package test
 
 import (
-	enums "google.golang.org/protobuf/internal/testprotos/enums"
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	enums "xjz9600/protobuf/internal/testprotos/enums"
+	proto "xjz9600/protobuf/proto"
+	protoreflect "xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

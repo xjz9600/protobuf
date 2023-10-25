@@ -7,10 +7,10 @@ package impl
 import (
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
+	"xjz9600/protobuf/encoding/protowire"
+	"xjz9600/protobuf/internal/encoding/messageset"
+	"xjz9600/protobuf/internal/errors"
+	"xjz9600/protobuf/internal/flags"
 )
 
 func sizeMessageSet(mi *MessageInfo, p pointer, opts marshalOptions) (size int) {

@@ -7,7 +7,7 @@ package proto
 import (
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/reflect/protoreflect"
 )
 
 // Equal reports whether two messages are equal,

@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+import protoreflect "xjz9600/protobuf/reflect/protoreflect"
 
 // Generic field names and numbers for synthetic map entry messages.
 const (

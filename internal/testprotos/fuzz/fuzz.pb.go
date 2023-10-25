@@ -8,10 +8,10 @@
 package fuzz
 
 import (
-	test "google.golang.org/protobuf/internal/testprotos/test"
-	test3 "google.golang.org/protobuf/internal/testprotos/test3"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	test "xjz9600/protobuf/internal/testprotos/test"
+	test3 "xjz9600/protobuf/internal/testprotos/test3"
+	protoreflect "xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "xjz9600/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

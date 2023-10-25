@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"xjz9600/protobuf/encoding/protowire"
+	"xjz9600/protobuf/internal/impl"
+	"xjz9600/protobuf/internal/protobuild"
+	"xjz9600/protobuf/proto"
+	"xjz9600/protobuf/reflect/protoreflect"
+	"xjz9600/protobuf/reflect/protoregistry"
+	"xjz9600/protobuf/testing/protopack"
 
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	requiredpb "google.golang.org/protobuf/internal/testprotos/required"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	legacypb "xjz9600/protobuf/internal/testprotos/legacy"
+	requiredpb "xjz9600/protobuf/internal/testprotos/required"
+	testpb "xjz9600/protobuf/internal/testprotos/test"
+	test3pb "xjz9600/protobuf/internal/testprotos/test3"
 )
 
 type testProto struct {

@@ -10,15 +10,15 @@
 package textpb2
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durationpb "google.golang.org/protobuf/types/known/durationpb"
-	emptypb "google.golang.org/protobuf/types/known/emptypb"
-	fieldmaskpb "google.golang.org/protobuf/types/known/fieldmaskpb"
-	structpb "google.golang.org/protobuf/types/known/structpb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
-	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
+	protoreflect "xjz9600/protobuf/reflect/protoreflect"
+	protoimpl "xjz9600/protobuf/runtime/protoimpl"
+	anypb "xjz9600/protobuf/types/known/anypb"
+	durationpb "xjz9600/protobuf/types/known/durationpb"
+	emptypb "xjz9600/protobuf/types/known/emptypb"
+	fieldmaskpb "xjz9600/protobuf/types/known/fieldmaskpb"
+	structpb "xjz9600/protobuf/types/known/structpb"
+	timestamppb "xjz9600/protobuf/types/known/timestamppb"
+	wrapperspb "xjz9600/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )
